@@ -13,6 +13,7 @@ exports.calculate = function(req, res) {
   //some changes
   
   var operations = {
+    // should failed 
     'add':      function(a,b) { return a + b },
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
